@@ -1,49 +1,48 @@
-# Olá, eu sou o Lucas Vicente! 👋
+<h1 align="center">Lucas Vicente - Gregrymqt</h1>
 
-Estudante de **Desenvolvimento de Software Multiplataforma na FATEC**. Focado no ecossistema .NET e no desenvolvimento de interfaces modernas com React.
+###
 
----
+<p align="center">Desenvolviemnto de Sistemas Multiplataforma</p>
 
-### 🚀 Sobre mim
-- 🎓 Cursando Tecnologia em Desenvolvimento de Software Multiplataforma na **FATEC**.
-- 💻 Atualmente trabalhando no projeto **Greg Company** (ASP.NET & React).
-- 🌱 Aprendendo sobre arquitetura de microsserviços, **Django** e **Spring Boot**.
-- 📫 Contato: [LinkedIn](https://www.linkedin.com/in/lucas-vicente-dev) | [E-mail](mailto:lucasvicentedesouza021@gmail.com)
+###
 
-### 🛠 Tecnologias e Ferramentas
+<p align="left"># Olá, eu sou o Lucas Vicente! 👋<br><br>Sou um desenvolvedor apaixonado por tecnologia, atualmente com 19 anos e cursando **Desenvolvimento de Software Multiplataforma na FATEC**. Meu foco é construir aplicações escaláveis e eficientes, unindo um backend sólido a interfaces modernas.<br><br>---<br><br>
+### 🚀 Sobre Mim<br>* 🎓 Estudante na **FATEC**, onde aprofundo meus conhecimentos em engenharia de software e novas tecnologias.<br>* 💻 Atualmente focado no ecossistema **.NET (C#)** e **React (TypeScript)**.<br>* 🌱 Também estudo **Java (Spring Boot)** e estou aprendendo **Django** na faculdade.<br>* 📊 Recentemente desenvolvi um projeto de **ETL em Python** para automação de relatórios integrados ao Notion.<br>* 📫 Vamos conversar? [Meu LinkedIn](https://www.linkedin.com/in/lucas-vicente-dev).<br><br>
+### 💻 Projetos em Destaque<br>* **Greg Company:** Plataforma de cursos online utilizando **ASP.NET Core**, **React**, **SQL Server** e cache com **Redis**.<br>* **Usafa:** Sistema de agendamento de consultas médicas desenvolvido com **Spring Boot**, **React** e **PostgreSQL**.<br><br>
+### 🛠 Tecnologias e Ferramentas<br>* **Linguagens:** C#, Java, Python, TypeScript e SQL.<br>* **Frameworks:** ASP.NET, Spring Boot, React e Django.<br>* **Bancos de Dados:** SQL Server, PostgreSQL, Redis e MongoDB.<br>* **DevOps:** Docker e Git para controle de versão.</p>
 
-| Categoria | Tecnologias |
-| :--- | :--- |
-| **Backend** | ![C#](https://img.shields.io/badge/C%23-239120?style=flat-square&logo=c-sharp&logoColor=white) ![ASP.NET](https://img.shields.io/badge/ASP.NET-512BD4?style=flat-square&logo=dotnet&logoColor=white) ![Java](https://img.shields.io/badge/Java-ED8B00?style=flat-square&logo=java&logoColor=white) ![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white) |
-| **Frontend** | ![React](https://img.shields.io/badge/React-20232A?style=flat-square&logo=react&logoColor=61DAFB) ![TypeScript](https://img.shields.io/badge/TypeScript-007ACC?style=flat-square&logo=typescript&logoColor=white) |
-| **Bancos de Dados** | ![SQL Server](https://img.shields.io/badge/SQL%20Server-CC2927?style=flat-square&logo=microsoft-sql-server&logoColor=white) ![PostgreSQL](https://img.shields.io/badge/PostgreSQL-336791?style=flat-square&logo=postgresql&logoColor=white) ![Redis](https://img.shields.io/badge/Redis-DC382D?style=flat-square&logo=redis&logoColor=white) |
-| **DevOps** | ![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white) ![Git](https://img.shields.io/badge/Git-F05032?style=flat-square&logo=git&logoColor=white) |
+###
 
----
+<h5 align="left">Langauge and Tools</h5>
 
-### 💻 Projetos em Destaque
+###
 
-#### 🎓 [Greg Company](https://github.com/gregrymqt/GregCompany)
-- **Stack:** ASP.NET Core, React, SQL Server e Redis.
-- **Destaque:** Plataforma de cursos com cache de alta performance.
+<div align="left">
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/typescript/typescript-original.svg" height="40" alt="typescript logo"  />
+  <img width="12" />
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg" height="40" alt="react logo"  />
+  <img width="12" />
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/csharp/csharp-original.svg" height="40" alt="csharp logo"  />
+  <img width="12" />
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/java/java-original.svg" height="40" alt="java logo"  />
+  <img width="12" />
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg" height="40" alt="python logo"  />
+  <img width="12" />
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/vscode/vscode-original.svg" height="40" alt="vscode logo"  />
+  <img width="12" />
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/redis/redis-original.svg" height="40" alt="redis logo"  />
+  <img width="12" />
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg" height="40" alt="git logo"  />
+  <img width="12" />
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/docker/docker-original.svg" height="40" alt="docker logo"  />
+</div>
 
-#### 🏥 [Usafa](https://github.com/gregrymqt/Usafa)
-- **Stack:** Java (Spring Boot), React e PostgreSQL.
-- **Destaque:** Sistema de agendamento com arquitetura limpa.
+###
 
----
+<div align="center">
+  <img src="https://github-readme-stats.vercel.app/api?username=gregrymqt&hide_title=false&hide_rank=false&show_icons=true&include_all_commits=true&count_private=true&disable_animations=false&theme=dracula&locale=en&hide_border=false&order=1" height="150" alt="stats graph"  />
+  <img src="https://github-readme-stats.vercel.app/api/top-langs?username=gregrymqt&locale=en&hide_title=false&layout=compact&card_width=320&langs_count=5&theme=tokyonight&hide_border=false&order=2" height="150" alt="languages graph"  />
+  <img src="https://streak-stats.demolab.com?user=gregrymqt&locale=pt-br&mode=weekly&theme=tokyonight&hide_border=false&border_radius=5&order=3" height="150" alt="streak graph"  />
+</div>
 
-### 📊 Estatísticas e Produtividade
-
-<p align="left">
-  <img height="195em" src="https://github-readme-stats.vercel.app/api?username=gregrymqt&show_icons=true&theme=tokyonight&include_all_commits=true&count_private=true&show=reviews,discussions_started,discussions_answered,prs_merged&text_bold=true&border_radius=10&cache_seconds=21600" alt="Estatísticas do GitHub" />
-  <img height="195em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=gregrymqt&layout=compact&langs_count=8&theme=tokyonight&text_bold=true&border_radius=10&cache_seconds=21600" alt="Linguagens mais usadas" />
-</p>
-
-### 🏆 Contribuições
-<p align="left">
-  <img height="150em" src="https://github-readme-streak-stats.herokuapp.com/?user=gregrymqt&theme=tokyonight&border_radius=10&cache_seconds=21600" alt="GitHub Streak" />
-</p>
-
----
-*“Transformando café em código e ideias em soluções.”*
+###
