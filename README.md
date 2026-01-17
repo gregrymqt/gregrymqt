@@ -1,13 +1,13 @@
 # Olá, eu sou o Lucas Vicente! 👋
 
-Estudante de **Desenvolvimento de Software Multiplataforma na FATEC**. Sou apaixonado por resolver problemas através do código, com foco principal no ecossistema .NET e no desenvolvimento de interfaces modernas com React.
+Estudante de **Desenvolvimento de Software Multiplataforma na FATEC**. Focado no ecossistema .NET e no desenvolvimento de interfaces modernas com React.
 
 ---
 
 ### 🚀 Sobre mim
 - 🎓 Cursando Tecnologia em Desenvolvimento de Software Multiplataforma na **FATEC**.
-- 💻 Focado em arquitetura de sistemas, APIs RESTful e performance no Front-end.
-- 🌱 Atualmente aprofundando conhecimentos em **Django**, **Spring Boot** e **Mensageria**.
+- 💻 Atualmente trabalhando no projeto **Greg Company** (ASP.NET & React).
+- 🌱 Aprendendo sobre arquitetura de microsserviços, **Django** e **Spring Boot**.
 - 📫 Contato: [LinkedIn](https://www.linkedin.com/in/lucas-vicente-dev) | [E-mail](mailto:lucasvicentedesouza021@gmail.com)
 
 ### 🛠 Tecnologias e Ferramentas
@@ -24,14 +24,12 @@ Estudante de **Desenvolvimento de Software Multiplataforma na FATEC**. Sou apaix
 ### 💻 Projetos em Destaque
 
 #### 🎓 [Greg Company](https://github.com/gregrymqt/GregCompany)
-Plataforma de cursos online desenvolvida para proporcionar uma experiência de aprendizado fluida.
-- **Stack:** ASP.NET Core, React, SQL Server e Redis para cache de alta performance.
-- **Destaque:** Implementação de autenticação robusta e listagem otimizada de conteúdos.
+- **Stack:** ASP.NET Core, React, SQL Server e Redis.
+- **Destaque:** Plataforma de cursos com cache de alta performance.
 
 #### 🏥 [Usafa](https://github.com/gregrymqt/Usafa)
-Sistema de agendamento de consultas focado em facilitar a gestão de horários na área da saúde.
 - **Stack:** Java (Spring Boot), React e PostgreSQL.
-- **Destaque:** Arquitetura limpa e integração eficiente entre o ecossistema Spring e o Front-end.
+- **Destaque:** Sistema de agendamento com arquitetura limpa.
 
 ---
 
@@ -39,7 +37,6 @@ Sistema de agendamento de consultas focado em facilitar a gestão de horários n
 
 <p align="left">
   <img height="195em" src="https://github-readme-stats.vercel.app/api?username=gregrymqt&show_icons=true&theme=tokyonight&include_all_commits=true&count_private=true&show=reviews,discussions_started,discussions_answered,prs_merged&text_bold=true&border_radius=10" alt="Estatísticas do GitHub" />
-  
   <img height="195em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=gregrymqt&layout=compact&langs_count=8&theme=tokyonight&text_bold=true&border_radius=10" alt="Linguagens mais usadas" />
 </p>
 
