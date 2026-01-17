@@ -36,13 +36,13 @@ Estudante de **Desenvolvimento de Software Multiplataforma na FATEC**. Focado no
 ### 📊 Estatísticas e Produtividade
 
 <p align="left">
-  <img height="195em" src="https://github-readme-stats.vercel.app/api?username=gregrymqt&show_icons=true&theme=tokyonight&include_all_commits=true&count_private=true&show=reviews,discussions_started,discussions_answered,prs_merged&text_bold=true&border_radius=10" alt="Estatísticas do GitHub" />
-  <img height="195em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=gregrymqt&layout=compact&langs_count=8&theme=tokyonight&text_bold=true&border_radius=10" alt="Linguagens mais usadas" />
+  <img height="195em" src="https://github-readme-stats.vercel.app/api?username=gregrymqt&show_icons=true&theme=tokyonight&include_all_commits=true&count_private=true&show=reviews,discussions_started,discussions_answered,prs_merged&text_bold=true&border_radius=10&cache_seconds=21600" alt="Estatísticas do GitHub" />
+  <img height="195em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=gregrymqt&layout=compact&langs_count=8&theme=tokyonight&text_bold=true&border_radius=10&cache_seconds=21600" alt="Linguagens mais usadas" />
 </p>
 
 ### 🏆 Contribuições
 <p align="left">
-  <img height="150em" src="https://github-readme-streak-stats.herokuapp.com/?user=gregrymqt&theme=tokyonight&border_radius=10" alt="GitHub Streak" />
+  <img height="150em" src="https://github-readme-streak-stats.herokuapp.com/?user=gregrymqt&theme=tokyonight&border_radius=10&cache_seconds=21600" alt="GitHub Streak" />
 </p>
 
 ---
