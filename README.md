@@ -1,14 +1,14 @@
 # Olá, eu sou o Lucas Vicente! 👋
 
-Estudante de Desenvolvimento de Software Multiplataforma na FATEC, focado em criar soluções robustas e escaláveis. Atualmente, dedico meus estudos ao ecossistema .NET e React.
+Estudante de **Desenvolvimento de Software Multiplataforma na FATEC**. Sou apaixonado por resolver problemas através do código, com foco principal no ecossistema .NET e no desenvolvimento de interfaces modernas com React.
 
 ---
 
 ### 🚀 Sobre mim
-- 🎓 Estudando na FATEC.
-- 💻 Atualmente trabalhando no projeto **Greg Company** (ASP.NET & React).
-- 🌱 Aprendendo sobre arquitetura de microsserviços e mensageria.
-- 📫 Como me encontrar: [Seu LinkedIn](https://linkedin.com/in/seu-usuario)
+- 🎓 Cursando Tecnologia em Desenvolvimento de Software Multiplataforma na **FATEC**.
+- 💻 Focado em arquitetura de sistemas, APIs RESTful e performance no Front-end.
+- 🌱 Atualmente aprofundando conhecimentos em **Django**, **Spring Boot** e **Mensageria**.
+- 📫 Contato: [LinkedIn](https://www.linkedin.com/in/lucas-vicente-dev) | [E-mail](mailto:lucasvicentedesouza021@gmail.com)
 
 ### 🛠 Tecnologias e Ferramentas
 
@@ -17,13 +17,36 @@ Estudante de Desenvolvimento de Software Multiplataforma na FATEC, focado em cri
 | **Backend** | ![C#](https://img.shields.io/badge/C%23-239120?style=flat-square&logo=c-sharp&logoColor=white) ![ASP.NET](https://img.shields.io/badge/ASP.NET-512BD4?style=flat-square&logo=dotnet&logoColor=white) ![Java](https://img.shields.io/badge/Java-ED8B00?style=flat-square&logo=java&logoColor=white) ![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white) |
 | **Frontend** | ![React](https://img.shields.io/badge/React-20232A?style=flat-square&logo=react&logoColor=61DAFB) ![TypeScript](https://img.shields.io/badge/TypeScript-007ACC?style=flat-square&logo=typescript&logoColor=white) |
 | **Bancos de Dados** | ![SQL Server](https://img.shields.io/badge/SQL%20Server-CC2927?style=flat-square&logo=microsoft-sql-server&logoColor=white) ![PostgreSQL](https://img.shields.io/badge/PostgreSQL-336791?style=flat-square&logo=postgresql&logoColor=white) ![Redis](https://img.shields.io/badge/Redis-DC382D?style=flat-square&logo=redis&logoColor=white) |
-| **Ferramentas** | ![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white) ![Git](https://img.shields.io/badge/Git-F05032?style=flat-square&logo=git&logoColor=white) |
+| **DevOps** | ![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white) ![Git](https://img.shields.io/badge/Git-F05032?style=flat-square&logo=git&logoColor=white) |
 
 ---
 
-### 📊 Estatísticas do GitHub
+### 💻 Projetos em Destaque
+
+#### 🎓 [Greg Company](https://github.com/gregrymqt/GregCompany)
+Plataforma de cursos online desenvolvida para proporcionar uma experiência de aprendizado fluida.
+- **Stack:** ASP.NET Core, React, SQL Server e Redis para cache de alta performance.
+- **Destaque:** Implementação de autenticação robusta e listagem otimizada de conteúdos.
+
+#### 🏥 [Usafa](https://github.com/gregrymqt/Usafa)
+Sistema de agendamento de consultas focado em facilitar a gestão de horários na área da saúde.
+- **Stack:** Java (Spring Boot), React e PostgreSQL.
+- **Destaque:** Arquitetura limpa e integração eficiente entre o ecossistema Spring e o Front-end.
+
+---
+
+### 📊 Estatísticas e Produtividade
 
 <p align="left">
-  <img height="180em" src="https://github-readme-stats.vercel.app/api?username=gregrymqt&show_icons=true&theme=tokyonight&include_all_commits=true&count_private=true"/>
-  <img height="180em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=gregrymqt&layout=compact&langs_count=7&theme=tokyonight"/>
+  <img height="195em" src="https://github-readme-stats.vercel.app/api?username=gregrymqt&show_icons=true&theme=tokyonight&include_all_commits=true&count_private=true&show=reviews,discussions_started,discussions_answered,prs_merged&text_bold=true&border_radius=10" alt="Estatísticas do GitHub" />
+  
+  <img height="195em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=gregrymqt&layout=compact&langs_count=8&theme=tokyonight&text_bold=true&border_radius=10" alt="Linguagens mais usadas" />
 </p>
+
+### 🏆 Contribuições
+<p align="left">
+  <img height="150em" src="https://github-readme-streak-stats.herokuapp.com/?user=gregrymqt&theme=tokyonight&border_radius=10" alt="GitHub Streak" />
+</p>
+
+---
+*“Transformando café em código e ideias em soluções.”*
