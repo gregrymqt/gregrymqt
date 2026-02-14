@@ -30,10 +30,11 @@ Tenho 19 anos, sou **Técnico em Informática** e atualmente curso **Desenvolvim
     * **Impacto:** Solução voltada para facilitar o acesso à saúde pública de forma digital.
 
 ### 📜 Certificações
-* **Docker** - DataCamp
+* **Introduction to Docker** - DataCamp
 * **Introduction to Git & GitHub** - DataCamp
 * **Introduction to Shell** - DataCamp
 * **Introduction to Python** - DataCamp
+* **Itermediate Git** - DataCamp
 * *Em progresso: GitHub Foundations Certification*
 
 ### 🛠 Tecnologias e Ferramentas
