@@ -6,7 +6,7 @@
 
 # Olá, eu sou o Lucas Vicente! 👋
 
-Tenho 19 anos, sou **Técnico em Informática** e atualmente curso **Desenvolvimento de Software Multiplataforma na FATEC**. Sou um desenvolvedor apaixonado por arquitetura de software, focado em construir aplicações eficientes com backend sólido e interfaces modernas.
+Tenho 20 anos, sou **Técnico em Informática** e atualmente curso **Desenvolvimento de Software Multiplataforma na FATEC**. Sou um desenvolvedor apaixonado por arquitetura de software, focado em construir aplicações eficientes com backend sólido e interfaces modernas.
 
 ---
 
