@@ -15,7 +15,7 @@
 
 ### 👤 Perfil
 
-Desenvolvedor Full-Stack e Mobile cursando o **4º semestre de Desenvolvimento de Software Multiplataforma na FATEC Praia Grande**. Especializado na construção de sistemas resilientes com .NET (C#) no back-end, interfaces modernas com React e aplicações nativas com Kotlin. Aplico padrões de arquitetura modernos — como Clean Architecture e MVVM — para entregar soluções escaláveis e de alta performance.
+Desenvolvedor Full-Stack e Mobile cursando o 4º semestre de Desenvolvimento de Software Multiplataforma na FATEC Praia Grande. Dedicado à construção de sistemas resilientes com .NET (C#) no back-end, interfaces modernas com React e aplicações nativas com Kotlin.
 
 ---
 
@@ -76,7 +76,6 @@ Desenvolvedor Full-Stack e Mobile cursando o **4º semestre de Desenvolvimento d
 | Intermediate Git & GitHub Concepts | DataCamp |✅ Concluído  |
 | Introduction to Docker & Shell Script | DataCamp | ✅ Concluído  |
 | Introduction to Git & Python | DataCamp | ✅ Concluído  |
-| GitHub Foundations | GitHub | 🔄 Em progresso |
 
 ---
 
@@ -86,6 +85,13 @@ Desenvolvedor Full-Stack e Mobile cursando o **4º semestre de Desenvolvimento d
   <img height="180em" src="https://github-readme-stats.vercel.app/api?username=gregrymqt&show_icons=true&theme=tokyonight&include_all_commits=true&count_private=true&show=reviews,discussions_started,discussions_answered,prs_merged&border_radius=10&cache_seconds=21600" alt="Estatísticas do GitHub" />
   <img height="180em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=gregrymqt&layout=compact&langs_count=8&theme=tokyonight&border_radius=10&cache_seconds=21600" alt="Linguagens mais usadas" />
 </p>
+
+---
+
+### 🚀 Buscando Oportunidades
+Estou ativamente focado em encontrar minha primeira oportunidade de mercado como **Estagiário ou Desenvolvedor Júnior** (.NET / Kotlin). Se a sua empresa busca alguém com forte base em arquitetura, código limpo e vontade de resolver problemas reais, vamos conversar!
+
+👉 [Conecte-se comigo no LinkedIn](https://www.linkedin.com/in/lucas-vicente-dev)
 
 ---
 
