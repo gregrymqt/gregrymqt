@@ -1,6 +1,6 @@
 <div align="center">
   <h1>Lucas Vicente</h1>
-  <p><b>Engenheiro de Software em Formação | .NET · React · Kotlin · Docker</b></p>
+  <p><b>Engenheiro de Software em Formação | .NET · Go · React · Kotlin · Docker</b></p>
   <p>
     <a href="https://www.linkedin.com/in/lucas-vicente-dev">
       <img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" />
@@ -15,7 +15,7 @@
 
 ### 👤 Perfil
 
-Desenvolvedor Full-Stack e Mobile cursando o 4º semestre de Desenvolvimento de Software Multiplataforma na FATEC Praia Grande. Dedicado à construção de sistemas resilientes com .NET (C#) no back-end, interfaces modernas com React e aplicações nativas com Kotlin.
+Desenvolvedor Full-Stack e Mobile cursando o 4º semestre de Desenvolvimento de Software Multiplataforma na FATEC Praia Grande. Dedicado à construção de sistemas resilientes com .NET (C#) no back-end, aprofundando conhecimentos no ecossistema e runtime do Go, além de criar interfaces modernas com React e aplicações nativas com Kotlin.
 
 ---
 
@@ -23,7 +23,7 @@ Desenvolvedor Full-Stack e Mobile cursando o 4º semestre de Desenvolvimento de 
 
 | Categoria | Tecnologias |
 |---|---|
-| **Back-end** | ![C#](https://img.shields.io/badge/C%23-239120?style=flat-square&logo=c-sharp&logoColor=white) ![.NET](https://img.shields.io/badge/.NET-512BD4?style=flat-square&logo=dotnet&logoColor=white) ![Java](https://img.shields.io/badge/Java-ED8B00?style=flat-square&logo=openjdk&logoColor=white) ![Spring Boot](https://img.shields.io/badge/Spring_Boot-6DB33F?style=flat-square&logo=spring-boot&logoColor=white) |
+| **Back-end** | ![C#](https://img.shields.io/badge/C%23-239120?style=flat-square&logo=c-sharp&logoColor=white) ![.NET](https://img.shields.io/badge/.NET-512BD4?style=flat-square&logo=dotnet&logoColor=white) ![Go](https://img.shields.io/badge/Go-00ADD8?style=flat-square&logo=go&logoColor=white) ![Java](https://img.shields.io/badge/Java-ED8B00?style=flat-square&logo=openjdk&logoColor=white) ![Spring Boot](https://img.shields.io/badge/Spring_Boot-6DB33F?style=flat-square&logo=spring-boot&logoColor=white) |
 | **Mobile** | ![Kotlin](https://img.shields.io/badge/Kotlin-7F52FF?style=flat-square&logo=kotlin&logoColor=white) ![Jetpack Compose](https://img.shields.io/badge/Jetpack_Compose-4285F4?style=flat-square&logo=android&logoColor=white) |
 | **Front-end** | ![React](https://img.shields.io/badge/React-20232A?style=flat-square&logo=react&logoColor=61DAFB) ![TypeScript](https://img.shields.io/badge/TypeScript-007ACC?style=flat-square&logo=typescript&logoColor=white) |
 | **Dados** | ![SQL Server](https://img.shields.io/badge/SQL_Server-CC2927?style=flat-square&logo=microsoft-sql-server&logoColor=white) ![PostgreSQL](https://img.shields.io/badge/PostgreSQL-336791?style=flat-square&logo=postgresql&logoColor=white) ![Redis](https://img.shields.io/badge/Redis-DC382D?style=flat-square&logo=redis&logoColor=white) |
@@ -89,7 +89,7 @@ Desenvolvedor Full-Stack e Mobile cursando o 4º semestre de Desenvolvimento de 
 ---
 
 ### 🚀 Buscando Oportunidades
-Estou ativamente focado em encontrar minha primeira oportunidade de mercado como **Estagiário ou Desenvolvedor Júnior** (.NET / Kotlin). Se a sua empresa busca alguém com forte base em arquitetura, código limpo e vontade de resolver problemas reais, vamos conversar!
+Estou ativamente focado em encontrar minha primeira oportunidade de mercado como **Estagiário ou Desenvolvedor Júnior** (.NET / Go / Kotlin). Se a sua empresa busca alguém com forte base em arquitetura, código limpo e vontade de resolver problemas reais, vamos conversar!
 
 👉 [Conecte-se comigo no LinkedIn](https://www.linkedin.com/in/lucas-vicente-dev)
 
