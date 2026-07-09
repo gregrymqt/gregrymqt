@@ -2,20 +2,15 @@
   <h1>Lucas Vicente</h1>
   <p><b>Engenheiro de Software em Formação | .NET · Go · React · Docker</b></p>
   <p>
-    <a href="https://www.linkedin.com/in/lucas-vicente-dev">
-      <img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" />
-    </a>
-    <a href="mailto:lucasvicentedesouza021@gmail.com">
-      <img src="https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white" alt="Email" />
-    </a>
+    <a href="https://www.linkedin.com/in/lucas-vicente-dev"><img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" /></a>
+    <a href="mailto:lucasvicentedesouza021@gmail.com"><img src="https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white" alt="Email" /></a>
   </p>
 </div>
 
 ---
 
 ### 👤 Perfil
-
-Desenvolvedor Full-Stack cursando o 4º semestre de Desenvolvimento de Software Multiplataforma na FATEC Praia Grande. Dedicado à construção de sistemas resilientes com .NET (C#) no back-end, aprofundando conhecimentos no ecossistema e runtime do Go, além de criar interfaces modernas e fluidas com React no front-end.
+Desenvolvedor Full-Stack cursando o 5º semestre de Desenvolvimento de Software Multiplataforma na FATEC Praia Grande. Dedicado à construção de sistemas resilientes com .NET (C#) no back-end, aprofundando conhecimentos no ecossistema e runtime do Go, além de criar interfaces modernas e fluidas com React no front-end.
 
 ---
 
@@ -25,8 +20,8 @@ Desenvolvedor Full-Stack cursando o 4º semestre de Desenvolvimento de Software 
 |---|---|
 | **Back-end** | ![C#](https://img.shields.io/badge/C%23-239120?style=flat-square&logo=c-sharp&logoColor=white) ![.NET](https://img.shields.io/badge/.NET-512BD4?style=flat-square&logo=dotnet&logoColor=white) ![Go](https://img.shields.io/badge/Go-00ADD8?style=flat-square&logo=go&logoColor=white) ![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white) ![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=flat-square&logo=fastapi&logoColor=white) |
 | **Front-end** | ![React](https://img.shields.io/badge/React-20232A?style=flat-square&logo=react&logoColor=61DAFB) ![TypeScript](https://img.shields.io/badge/TypeScript-007ACC?style=flat-square&logo=typescript&logoColor=white) |
-| **Dados** | ![SQL Server](https://img.shields.io/badge/SQL_Server-CC2927?style=flat-square&logo=microsoft-sql-server&logoColor=white) ![PostgreSQL](https://img.shields.io/badge/PostgreSQL-336791?style=flat-square&logo=postgresql&logoColor=white) ![Redis](https://img.shields.io/badge/Redis-DC382D?style=flat-square&logo=redis&logoColor=white) |
-| **DevOps** | ![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white) ![Kubernetes](https://img.shields.io/badge/Kubernetes-326CE5?style=flat-square&logo=kubernetes&logoColor=white) ![Git](https://img.shields.io/badge/Git-F05032?style=flat-square&logo=git&logoColor=white) ![GitHub Actions](https://img.shields.io/badge/GitHub_Actions-2088FF?style=flat-square&logo=github-actions&logoColor=white) |
+| **Dados** | ![SQL Server](https://img.shields.io/badge/SQL_Server-CC2927?style=flat-square&logo=microsoft-sql-server&logoColor=white) ![PostgreSQL](https://img.shields.io/badge/PostgreSQL-336791?style=flat-square&logo=postgresql&logoColor=white) ![MongoDB](https://img.shields.io/badge/MongoDB-47A248?style=flat-square&logo=mongodb&logoColor=white) ![Redis](https://img.shields.io/badge/Redis-DC382D?style=flat-square&logo=redis&logoColor=white) |
+| **DevOps** | ![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white) ![Kubernetes](https://img.shields.io/badge/Kubernetes-326CE5?style=flat-square&logo=kubernetes&omegaColor=white) ![Git](https://img.shields.io/badge/Git-F05032?style=flat-square&logo=git&logoColor=white) ![GitHub Actions](https://img.shields.io/badge/GitHub_Actions-2088FF?style=flat-square&logo=github-actions&logoColor=white) |
 
 ---
 
@@ -45,14 +40,14 @@ Desenvolvedor Full-Stack cursando o 4º semestre de Desenvolvimento de Software 
 ---
 
 #### [Greg Company Ecosystem](https://github.com/gregrymqt/greg-company-ecosystem)
-> Plataforma de e-commerce e cursos online 
+> Plataforma completa e escalável para gestão de cursos online e assinaturas
 
 | | |
 |---|---|
-| **O Problema** | Plataformas monolíticas apresentam alto acoplamento, dificultando a evolução independente de funcionalidades e a escalabilidade de dados. |
-| **A Solução** | Arquitetura orientada a **Vertical Slice** com suporte a **multi-database**. Utiliza **Redis** como camada de cache distribuído para reduzir latência em leituras frequentes e garantir alta disponibilidade. |
+| **O Problema** | A necessidade de gerenciar assinaturas e pagamentos complexos de forma unificada, além de realizar a transcodificação pesada de vídeos de aulas sem comprometer a performance e tempo de resposta da API principal. |
+| **A Solução** | Um ecossistema distribuído em Monorepo. Conta com backend em **.NET 8** (Clean Architecture com *Vertical Slices* e *Transactional Outbox*), microserviço assíncrono em **Go** para processamento de vídeos via **RabbitMQ**, interfaces em **React (Micro-frontends)** e **MongoDB** como fonte única da verdade. |
 
-`C#` · `.NET` · `React (TypeScript)` · `SQL Server` · `Redis` · `Docker`
+`C# (.NET 8)` · `Go` · `React (TypeScript)` · `MongoDB` · `RabbitMQ` · `Redis` · `Nginx` · `Docker` · `Python`
 
 ---
 
@@ -64,7 +59,7 @@ Desenvolvedor Full-Stack cursando o 4º semestre de Desenvolvimento de Software 
 | **O Problema** | O agendamento manual na rede pública gera baixa adesão e desperdício de vagas disponíveis por falta de centralização. |
 | **A Solução** | Aplicação que centraliza o agendamento digital, com foco em **integridade de dados** e controle de concorrência para atender demandas locais de saúde. |
 
-`Python` · `FastAPI` · `React` · `PostgreSQL` · `Redis` 
+`Java` · `SpringBoot` · `React` · `PostgreSQL` · `Redis` 
 
 ---
 
