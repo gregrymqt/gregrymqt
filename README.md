@@ -44,10 +44,10 @@ Desenvolvedor Full-Stack cursando o 5º semestre de Desenvolvimento de Software 
 
 | | |
 |---|---|
-| **O Problema** | A necessidade de gerenciar assinaturas e pagamentos complexos de forma unificada, além de realizar a transcodificação pesada de vídeos de aulas sem comprometer a performance e tempo de resposta da API principal. |
-| **A Solução** | Um ecossistema distribuído em Monorepo. Conta com backend em **.NET 8** (Clean Architecture com *Vertical Slices* e *Transactional Outbox*), microserviço assíncrono em **Go** para processamento de vídeos via **RabbitMQ**, interfaces em **React (Micro-frontends)** e **MongoDB** como fonte única da verdade. |
+| **O Problema** | A necessidade de gerenciar assinaturas e pagamentos complexos de forma unificada, além de realizar o processamento pesado de vídeos e automações de dados sem comprometer a performance e tempo de resposta da API principal. |
+| **A Solução** | Um ecossistema distribuído em Monorepo. Conta com backend em **.NET 8** (Clean Architecture com *Vertical Slices* e *Transactional Outbox*), microsserviços assíncronos em **Go** (processamento de mídia) e **Python** (automação, web scraping e integração com LLMs) orientados a eventos via **RabbitMQ**, além de interfaces em **React (Micro-frontends)**. |
 
-`C# (.NET 8)` · `Go` · `React (TypeScript)` · `MongoDB` · `RabbitMQ` · `Redis` · `Nginx` · `Docker` · `Python`
+`C# (.NET 8)` · `Go` · `Python` · `React (TypeScript)` · `RabbitMQ` · `Redis` · `Nginx` · `Docker`
 
 ---
 
