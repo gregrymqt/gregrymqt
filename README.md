@@ -1,94 +1,60 @@
 <div align="center">
   <h1>Lucas Vicente</h1>
-  <p><b>Engenheiro de Software em Formação | .NET · Go · React · Docker</b></p>
+  <p><b>Desenvolvedor Back-End | .NET 8 (C#) · Python (FastAPI) · Go (Golang)</b></p>
+  <p><i>Arquitetura de Software · Microsserviços · Resiliência & Processamento Distribuído</i></p>
   <p>
-    <a href="https://www.linkedin.com/in/lucas-vicente-dev"><img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" /></a>
+    <a href="https://www.linkedin.com/in/lucas-vicente-dev/"><img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" /></a>
     <a href="mailto:lucasvicentedesouza021@gmail.com"><img src="https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white" alt="Email" /></a>
   </p>
 </div>
 
 ---
 
-### 👤 Perfil
-Desenvolvedor Full-Stack cursando o 5º semestre de Desenvolvimento de Software Multiplataforma na FATEC Praia Grande. Dedicado à construção de sistemas resilientes com .NET (C#) no back-end, aprofundando conhecimentos no ecossistema e runtime do Go, além de criar interfaces modernas e fluidas com React no front-end.
+### 👤 Sobre Mim
+Estudante de Desenvolvimento de Software Multiplataforma na **FATEC Praia Grande**. Atuo focado na construção de sistemas Back-End de alta performance, microsserviços resilientes e pipelines de dados assíncronos.
+
+Atuo principalmente com o ecossistema **.NET 8 (C#)**, **Python (FastAPI)** e **Go (Golang)**, aplicando padrões como *Clean Architecture*, *Vertical Slice Architecture*, *SOLID*, resiliência com *Polly* e *Padrão AAA* para testes unitários.
 
 ---
 
-### 🛠️ Toolbox
+### 🛠️ Toolbox & Stack Técnica
 
 | Categoria | Tecnologias |
 |---|---|
-| **Back-end** | ![C#](https://img.shields.io/badge/C%23-239120?style=flat-square&logo=c-sharp&logoColor=white) ![.NET](https://img.shields.io/badge/.NET-512BD4?style=flat-square&logo=dotnet&logoColor=white) ![Go](https://img.shields.io/badge/Go-00ADD8?style=flat-square&logo=go&logoColor=white) ![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white) ![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=flat-square&logo=fastapi&logoColor=white) |
-| **Front-end** | ![React](https://img.shields.io/badge/React-20232A?style=flat-square&logo=react&logoColor=61DAFB) ![TypeScript](https://img.shields.io/badge/TypeScript-007ACC?style=flat-square&logo=typescript&logoColor=white) |
-| **Dados** | ![SQL Server](https://img.shields.io/badge/SQL_Server-CC2927?style=flat-square&logo=microsoft-sql-server&logoColor=white) ![PostgreSQL](https://img.shields.io/badge/PostgreSQL-336791?style=flat-square&logo=postgresql&logoColor=white) ![MongoDB](https://img.shields.io/badge/MongoDB-47A248?style=flat-square&logo=mongodb&logoColor=white) ![Redis](https://img.shields.io/badge/Redis-DC382D?style=flat-square&logo=redis&logoColor=white) |
-| **DevOps** | ![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white) ![Kubernetes](https://img.shields.io/badge/Kubernetes-326CE5?style=flat-square&logo=kubernetes&omegaColor=white) ![Git](https://img.shields.io/badge/Git-F05032?style=flat-square&logo=git&logoColor=white) ![GitHub Actions](https://img.shields.io/badge/GitHub_Actions-2088FF?style=flat-square&logo=github-actions&logoColor=white) |
+| **Back-End** | `C# (.NET 8 / ASP.NET Core)` · `Python (FastAPI)` · `Go (Golang)` |
+| **IA & Mensageria** | `RabbitMQ` · `LLM APIs (OpenAI, Gemini, DeepSeek, Groq)` · `SSE` · `SignalR` |
+| **Bancos de Dados & Cache** | `PostgreSQL` · `SQL Server` · `MongoDB` · `Redis (Cache Aside / PubSub)` |
+| **DevOps & Infra** | `Docker` · `Kubernetes (Kind)` · `GitHub Actions` · `Linux` |
+| **Qualidade & Resiliência** | `xUnit / NUnit` · `Moq` · `Polly (Retry & Circuit Breaker)` |
+| **Front-End (Complementar)** | `React` · `TypeScript` · `Tailwind CSS` · `Vite` |
 
 ---
 
-### 💻 Projetos em Destaque
+### 🚀 Projetos em Destaque
 
-#### [Bueiro Inteligente](https://github.com/gregrymqt/bueiro-inteligente)
-> Ecossistema IoT (Smart City) para monitoramento preventivo de enchentes
+#### 🤖 [E-commerce Bot](https://github.com/gregrymqt/ecomerce-bot)
+> **Pipeline de ETL, IA & Processamento Assíncrono Multi-Tenant**
+* **O Problema:** Extração, enriquecimento via Inteligência Artificial e estruturação de dados de produtos para e-commerces em larga escala.
+* **A Solução:** Pipeline de ETL/ELT assíncrono em Python (FastAPI). Arquitetei 3 workers desacoplados (**ScraperWorker**, **ProcessorWorker** integrado a LLMs via OpenAI/DeepSeek/Groq e **ExporterWorker**) comunicando-se via **RabbitMQ** e **Redis**, gerando exportações CSV/XLSX em memória (`io.StringIO`, `utf-8-sig`) e streaming de progresso via SSE.
+* `Python` · `FastAPI` · `RabbitMQ` · `Redis` · `PostgreSQL` · `Docker` · `React`
 
-| | |
-|---|---|
-| **O Problema** | A falta de visibilidade sobre a obstrução de bueiros urbanos impede ações preventivas contra enchentes, resultando em danos evitáveis à infraestrutura pública. |
-| **A Solução** | Monitoramento em tempo real via sensores **ESP32**. O fluxo de dados é gerido por um backend em **.NET 8**, com dashboard de controle em **React** e um aplicativo mobile nativo em **Kotlin (MVVM)** para alertas e fiscalização em campo. |
+#### 🛒 [Greg Company Ecosystem](https://github.com/gregrymqt)
+> **E-commerce & Processamento de Pagamentos Resilientes em Tempo Real**
+* **O Problema:** Tratar instabilidades em gateways de pagamento externos e garantir respostas em tempo real para o cliente.
+* **A Solução:** Plataforma de e-commerce com **Checkout Transparente (Mercado Pago)**. Utilizei **.NET 8** com Clean Architecture, microsserviço em **Go** via RabbitMQ para processamento assíncrono, resiliência a falhas de API com **Polly** (Retry & Circuit Breaker) e atualizações reativas via **SignalR**.
+* `.NET 8` · `C#` · `Go` · `RabbitMQ` · `Polly` · `MongoDB` · `Redis` · `React`
 
-`C# (.NET 8)` · `Kotlin` · `React` · `PostgreSQL` · `IoT` · `Docker`
-
----
-
-#### [Greg Company Ecosystem](https://github.com/gregrymqt/greg-company-ecosystem)
-> Plataforma completa e escalável para gestão de cursos online e assinaturas
-
-| | |
-|---|---|
-| **O Problema** | A necessidade de gerenciar assinaturas e pagamentos complexos, automatizar a extração/enriquecimento de dados e realizar a transcodificação pesada de vídeos sem comprometer a performance da API principal. |
-| **A Solução** | Um ecossistema distribuído em Monorepo. Conta com backend principal em **.NET 8** (Clean Architecture com *Vertical Slices* e *Transactional Outbox*), microsserviço em **Python** para web scraping, enriquecimento de dados e integração com LLMs, worker de alta performance em **Go** para processamento de vídeos via **RabbitMQ**, interfaces em **React (Micro-frontends)** e **PostgreSQL** como fonte única da verdade. |
-
-`C# (.NET 8)` · `Python` · `Go` · `React (TypeScript)` · `PostgreSQL` · `RabbitMQ` · `Redis` · `Nginx` · `Docker`
+#### 🌊 [Bueiro Inteligente](https://github.com/gregrymqt/bueiro-inteligente)
+> **Ecossistema IoT & Smart City para Monitoramento Preventivo de Enchentes**
+* **O Problema:** Ausência de telemetria em tempo real para ações preventivas contra alagamentos em redes de drenagem urbana.
+* **A Solução:** Arquitetura distribuída integrando sensores **ESP32**, backend em **.NET 8**, dashboard web e aplicativo Android em Kotlin. Implementei camada de cache no **Redis** com estratégia *Cache Aside* e políticas de *Exponential Retry*.
+* `.NET 8` · `Kotlin` · `React` · `Redis` · `PostgreSQL` · `ESP32` · `Docker`
 
 ---
 
-#### [Usafa](https://github.com/gregrymqt/Usafa)
-> Sistema de agendamento de consultas na rede pública de saúde 
-
-| | |
-|---|---|
-| **O Problema** | O agendamento manual na rede pública gera baixa adesão e desperdício de vagas disponíveis por falta de centralização. |
-| **A Solução** | Aplicação que centraliza o agendamento digital, com foco em **integridade de dados** e controle de concorrência para atender demandas locais de saúde. |
-
-`Java` · `SpringBoot` · `React` · `PostgreSQL` · `Redis` 
-
----
-
-### 📜 Certificações
-
-| Certificação | Emissor | Status |
-|---|---|---|
-| Intermediate Git & GitHub Concepts | DataCamp |✅ Concluído  |
-| Introduction to Docker & Shell Script | DataCamp | ✅ Concluído  |
-| Introduction to Git & Python | DataCamp | ✅ Concluído  |
-
----
-
-### 📊 Estatísticas
-
-<p align="left">
-  <img height="180em" src="https://github-readme-stats.vercel.app/api?username=gregrymqt&show_icons=true&theme=tokyonight&include_all_commits=true&count_private=true&show=reviews,discussions_started,discussions_answered,prs_merged&border_radius=10&cache_seconds=21600" alt="Estatísticas do GitHub" />
-  <img height="180em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=gregrymqt&layout=compact&langs_count=8&theme=tokyonight&border_radius=10&cache_seconds=21600" alt="Linguagens mais usadas" />
-</p>
-
----
-
-### 🚀 Buscando Oportunidades
-Estou ativamente focado em encontrar minha primeira oportunidade de mercado como **Estagiário ou Desenvolvedor Júnior** (.NET / Go). Se a sua empresa busca alguém com forte base em arquitetura, código limpo e vontade de resolver problemas reais, vamos conversar!
-
-👉 [Conecte-se comigo no LinkedIn](https://www.linkedin.com/in/lucas-vicente-dev)
-
----
+### 📈 Estatísticas do GitHub
 
 <div align="center">
-  <sub>FATEC Praia Grande · Desenvolvimento de Software Multiplataforma · 4º Semestre</sub>
+  <img height="160em" src="https://github-readme-stats.vercel.app/api?username=gregrymqt&show_icons=true&theme=tokyonight&include_all_commits=true&count_private=true"/>
+  <img height="160em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=gregrymqt&layout=compact&theme=tokyonight&hide=html,css"/>
 </div>
