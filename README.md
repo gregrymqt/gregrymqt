@@ -33,10 +33,10 @@ Atuo principalmente com o ecossistema **.NET 8 (C#)**, **Python (FastAPI)** e **
 ### 🚀 Projetos em Destaque
 
 #### 🤖 [E-commerce Bot](https://github.com/gregrymqt/ecomerce-bot)
-> **Pipeline de ETL, IA & Processamento Assíncrono Multi-Tenant**
-* **O Problema:** Extração, enriquecimento via Inteligência Artificial e estruturação de dados de produtos para e-commerces em larga escala.
-* **A Solução:** Pipeline de ETL/ELT assíncrono em Python (FastAPI). Arquitetei 3 workers desacoplados (**ScraperWorker**, **ProcessorWorker** integrado a LLMs via OpenAI/DeepSeek/Groq e **ExporterWorker**) comunicando-se via **RabbitMQ** e **Redis**, gerando exportações CSV/XLSX em memória (`io.StringIO`, `utf-8-sig`) e streaming de progresso via SSE.
-* `Python` · `FastAPI` · `RabbitMQ` · `Redis` · `PostgreSQL` · `Docker` · `React`
+> **Plataforma de Ingestão, Enriquecimento via IA (LLMs) & Processamento Assíncrono Multi-Tenant**
+* **O Problema:** Automação de extração (scraping), enriquecimento contextual de produtos e sincronização de catálogos de e-commerce com suporte multi-tenant e alto volume de dados.
+* **A Solução:** Arquitetura Monorepo Full-Stack (FastAPI + React 18). Arquitetei um pipeline assíncrono baseado em **Domain-Driven Design (DDD)** com pool de 3 workers desacoplados via **RabbitMQ** (`ScraperWorker`, `ProcessorWorker` e `ExporterWorker`). Implementei gateway com fallback para LLMs (DeepSeek, Llama 3.3, Gemini), criptografia **AES-256 GCM** para chaves de API por tenant (BYOK) e monitoramento em tempo real via **Server-Sent Events (SSE)**.
+* **Tech Stack:** `Python` · `FastAPI` · `React 18` · `TypeScript` · `RabbitMQ` · `Redis` · `PostgreSQL` · `Docker`
 
 #### 🛒 [Greg Company Ecosystem](https://github.com/gregrymqt)
 > **E-commerce & Processamento de Pagamentos Resilientes em Tempo Real**
