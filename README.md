@@ -55,6 +55,6 @@ Atuo principalmente com o ecossistema **.NET 8 (C#)**, **Python (FastAPI)** e **
 ### 📈 Estatísticas do GitHub
 
 <div align="center">
-  <img height="160em" src="https://github-readme-stats.vercel.app/api?username=gregrymqt&show_icons=true&theme=tokyonight&include_all_commits=true&count_private=true"/>
-  <img height="160em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=gregrymqt&layout=compact&theme=tokyonight&hide=html,css"/>
+  <img height="180em" src="https://github-readme-stats.vercel.app/api?username=gregrymqt&show_icons=true&theme=dark&include_all_commits=true&count_private=true" />
+  <img height="180em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=gregrymqt&layout=compact&theme=dark&hide=html,css" />
 </div>
