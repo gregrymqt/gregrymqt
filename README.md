@@ -11,7 +11,7 @@
 ---
 
 ### 👤 Sobre Mim
-Estudante de Desenvolvimento de Software Multiplataforma na **FATEC Praia Grande** (5º Semestre | Formatura: Dezembro/2026). Atuo focado na engenharia de sistemas Back-End escaláveis, microsserviços orientados a eventos e processamento concorrente de alta performance.
+Estudante de Desenvolvimento de Software Multiplataforma na **FATEC Praia Grande** (5º Semestre | Formatura: Julho/2027). Atuo focado na engenharia de sistemas Back-End escaláveis, microsserviços orientados a eventos e processamento concorrente de alta performance.
 
 Minha prática de engenharia prioriza **Clean Architecture**, **Vertical Slice Architecture**, **SOLID**, resiliência a falhas com **Polly (Circuit Breaker / Retry)** e cobertura com **Testes Unitários (padrão AAA com xUnit e Moq)**.
 
