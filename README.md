@@ -1,7 +1,7 @@
 <div align="center">
   <h1>Lucas Vicente</h1>
-  <p><b>Desenvolvedor Back-End | .NET 8 (C#) · Python (FastAPI) · Go (Golang)</b></p>
-  <p><i>Arquitetura de Software · Microsserviços · Resiliência & Processamento Distribuído</i></p>
+  <p><b>Desenvolvedor Back-End | C# (.NET 8) · Python (FastAPI) · Go (Golang)</b></p>
+  <p><i>Arquitetura de Software · Sistemas Distribuídos · Resiliência & Processamento Assíncrono</i></p>
   <p>
     <a href="https://www.linkedin.com/in/lucas-vicente-dev/"><img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" /></a>
     <a href="mailto:lucasvicentedesouza021@gmail.com"><img src="https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white" alt="Email" /></a>
@@ -11,9 +11,9 @@
 ---
 
 ### 👤 Sobre Mim
-Estudante de Desenvolvimento de Software Multiplataforma na **FATEC Praia Grande**. Atuo focado na construção de sistemas Back-End de alta performance, microsserviços resilientes e pipelines de dados assíncronos.
+Estudante de Desenvolvimento de Software Multiplataforma na **FATEC Praia Grande** (5º Semestre | Formatura: Dezembro/2026). Atuo focado na engenharia de sistemas Back-End escaláveis, microsserviços orientados a eventos e processamento concorrente de alta performance.
 
-Atuo principalmente com o ecossistema **.NET 8 (C#)**, **Python (FastAPI)** e **Go (Golang)**, aplicando padrões como *Clean Architecture*, *Vertical Slice Architecture*, *SOLID*, resiliência com *Polly* e *Padrão AAA* para testes unitários.
+Minha prática de engenharia prioriza **Clean Architecture**, **Vertical Slice Architecture**, **SOLID**, resiliência a falhas com **Polly (Circuit Breaker / Retry)** e cobertura com **Testes Unitários (padrão AAA com xUnit e Moq)**.
 
 ---
 
@@ -21,34 +21,35 @@ Atuo principalmente com o ecossistema **.NET 8 (C#)**, **Python (FastAPI)** e **
 
 | Categoria | Tecnologias |
 |---|---|
-| **Back-End** | `C# (.NET 8 / ASP.NET Core)` · `Python (FastAPI)` · `Go (Golang)` |
-| **IA & Mensageria** | `RabbitMQ` · `LLM APIs (OpenAI, Gemini, DeepSeek, Groq)` · `SSE` · `SignalR` |
-| **Bancos de Dados & Cache** | `PostgreSQL` · `SQL Server` · `MongoDB` · `Redis (Cache Aside / PubSub)` |
-| **DevOps & Infra** | `Docker` · `Kubernetes (Kind)` · `GitHub Actions` · `Linux` |
+| **Back-End** | `C# (.NET 8 / ASP.NET Core)` · `Python (FastAPI)` · `Go (Golang - Concorrência)` |
+| **Mensageria & Telemetria** | `RabbitMQ` · `Redis (Pub/Sub & Cache-Aside)` · `SignalR` · `Server-Sent Events (SSE)` |
+| **Integração com LLMs** | `OpenAI API` · `Gemini API` · `DeepSeek` · `Groq` |
+| **Bancos de Dados** | `SQL Server` · `PostgreSQL` · `MongoDB` · `Redis` |
+| **DevOps & Infraestrutura** | `Docker` · `Kubernetes (Kind)` · `GitHub Actions` · `Linux` |
 | **Qualidade & Resiliência** | `xUnit / NUnit` · `Moq` · `Polly (Retry & Circuit Breaker)` |
-| **Front-End (Complementar)** | `React` · `TypeScript` · `Tailwind CSS` · `Vite` |
+| **Front-End (Apoio)** | `React (TypeScript)` · `Tailwind CSS` · `Vite` |
 
 ---
 
 ### 🚀 Projetos em Destaque
 
 #### 🤖 [E-commerce Bot](https://github.com/gregrymqt/ecomerce-bot)
-> **Plataforma de Ingestão, Enriquecimento via IA (LLMs) & Processamento Assíncrono Multi-Tenant**
-* **O Problema:** Automação de extração (scraping), enriquecimento contextual de produtos e sincronização de catálogos de e-commerce com suporte multi-tenant e alto volume de dados.
-* **A Solução:** Arquitetura Monorepo Full-Stack (FastAPI + React 18). Arquitetei um pipeline assíncrono baseado em **Domain-Driven Design (DDD)** com pool de 3 workers desacoplados via **RabbitMQ** (`ScraperWorker`, `ProcessorWorker` e `ExporterWorker`). Implementei gateway com fallback para LLMs (DeepSeek, Llama 3.3, Gemini), criptografia **AES-256 GCM** para chaves de API por tenant (BYOK) e monitoramento em tempo real via **Server-Sent Events (SSE)**.
-* **Tech Stack:** `Python` · `FastAPI` · `React 18` · `TypeScript` · `RabbitMQ` · `Redis` · `PostgreSQL` · `Docker`
+> **Pipeline Assíncrono de Ingestão, Enriquecimento com LLMs e Exportação Multi-Tenant**
+* **O Problema:** Alta latência e instabilidade ao processar raspagem, enriquecimento de atributos via IA e exportação em larga escala de catálogos de e-commerce.
+* **A Solução:** Pipeline distribuído com pool de workers assíncronos via **RabbitMQ** (`ScraperWorker`, `ProcessorWorker` e `ExporterWorker`), fallback dinâmico entre provedores de IA, criptografia **AES-256 GCM** por tenant e geração de payloads CSV em streaming de memória (`io.StringIO`), reduzindo I/O de disco para integração com Shopify e Nuvemshop.
+* **Tech Stack:** `Python (FastAPI)` · `RabbitMQ` · `Redis` · `PostgreSQL` · `Docker` · `React 18`
 
 #### 🛒 [Greg Company Ecosystem](https://github.com/gregrymqt)
-> **E-commerce & Processamento de Pagamentos Resilientes em Tempo Real**
-* **O Problema:** Tratar instabilidades em gateways de pagamento externos e garantir respostas em tempo real para o cliente.
-* **A Solução:** Plataforma de e-commerce com **Checkout Transparente (Mercado Pago)**. Utilizei **.NET 8** com Clean Architecture, microsserviço em **Go** via RabbitMQ para processamento assíncrono, resiliência a falhas de API com **Polly** (Retry & Circuit Breaker) e atualizações reativas via **SignalR**.
-* `.NET 8` · `C#` · `Go` · `RabbitMQ` · `Polly` · `MongoDB` · `Redis` · `React`
+> **Plataforma E-commerce com Checkout Transparente e Resiliência Transacional**
+* **O Problema:** Risco de inconsistência de estado em falhas transitórias de APIs de pagamento externas e necessidade de feedback em tempo real para o cliente.
+* **A Solução:** Backend em **.NET 8** com Clean Architecture e políticas de resiliência com **Polly** (Wait & Retry com backoff exponencial e Circuit Breaker). Microsserviço assíncrono em **Go** integrado via **RabbitMQ**, persistência com transações atômicas e notificações reativas ao usuário via **SignalR**.
+* **Tech Stack:** `.NET 8 (C#)` · `Go` · `RabbitMQ` · `Polly` · `MongoDB` · `Redis` · `React`
 
-#### 🌊 [Bueiro Inteligente](https://github.com/gregrymqt/bueiro-inteligente)
+#### 🌊 [Bueiro Inteligente (SIMB)](https://github.com/gregrymqt/bueiro-inteligente)
 > **Ecossistema IoT & Smart City para Monitoramento Preventivo de Enchentes**
-* **O Problema:** Ausência de telemetria em tempo real para ações preventivas contra alagamentos em redes de drenagem urbana.
-* **A Solução:** Arquitetura distribuída integrando sensores **ESP32**, backend em **.NET 8**, dashboard web e aplicativo Android em Kotlin. Implementei camada de cache no **Redis** com estratégia *Cache Aside* e políticas de *Exponential Retry*.
-* `.NET 8` · `Kotlin` · `React` · `Redis` · `PostgreSQL` · `ESP32` · `Docker`
+* **O Problema:** Monitoramento manual ineficiente de redes pluviais urbanas sob risco crítico de alagamentos.
+* **A Solução:** Ingestão contínua de séries temporais de sensores **ESP32**, backend em **.NET 8** com arquitetura em camadas, telemetria em tempo real via **SignalR** e camada de cache no **Redis** implementando **Cache-Aside** com política de retry e degradação suave (fallback para PostgreSQL).
+* **Tech Stack:** `C# (.NET 8)` · `ESP32` · `Kotlin (Android)` · `React` · `Redis` · `PostgreSQL` · `Docker`
 
 ---
 
